@@ -1,0 +1,75 @@
+header {
+    color: rgba(255, 255, 255, 0.719); 
+    font-size: xx-large;
+    font-family: 'Vina Sans', sans-serif;
+    grid-area: ph; 
+}
+
+#search { 
+    float: right; 
+    margin-top: 30px;
+}
+
+.green { 
+    background-color: rgba(26, 37, 241, 0.87);
+ }
+
+.padded {
+     padding:50px 10px; 
+}
+
+#bar{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+#home{
+    position: relative;
+    top: -80px;
+    font-size: 25px;  
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'ph ph ph ph ph'
+        'ln cn cn cn cn'
+        'ln cn cn cn cn'
+        'ln cn cn cn cn';
+}
+
+nav {
+    grid-area: ln;
+}
+
+main {
+    grid-area: cn;
+}
+
+#image1 { 
+    width: 500px; 
+    length: 75px;
+    float:inline-;
+}
+button{
+    width: 200px;
+    height: 75px;
+    border-color: rgb(24, 24, 230);
+    background-color: aliceblue;
+    text-emphasis-color: rgb(24, 24, 230);
+    cursor: pointer; /*mouse pointer on hover*/
+
+}
+p{
+    width: 1200px;
+    margin-left: 420px;
+}
+#map {
+    width: 1300px;
+    height: 1000px;
+}
+#table {
+    width: 1300px;
+    height: 1200px;
+}

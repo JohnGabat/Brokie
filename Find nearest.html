@@ -1,0 +1,38 @@
+<script src="https://kit.fontawesome.com/0ae874aa62.js" crossorigin="anonymous"></script>
+<HTML>
+
+<head>
+    <title>EV CHARGING POINT FINDER</title>
+    <!-- font links -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <!-- icon links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button class="btn"><i class="fa fa-home"></i></button>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="green padded">
+            EV CHARGING POINT FINDER 
+                <span id="search">
+                <input id="bar" type="text" placeholder="Search..">
+                <i style="font-size:20px" class="fa">&#xf002;</i>
+                <i id="home" class="fa-solid fa-house"></i>
+            </span>
+        </header>
+        <nav>
+            <button onclick="location.href='Find nearest.html'" class="button1">Find nearest</button>
+            <button onclick="location.href='Find by type.html'" class="button1">Find by type</button>
+        </nav>
+        <main>
+            <iframe id="map" src="https://arcg.is/1L1bK10"></iframe>
+        </main>
+    </div>
+
+</body>
+
+</HTML>
